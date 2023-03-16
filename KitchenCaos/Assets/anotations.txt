@@ -1,0 +1,1 @@
+ctrl + shift + f = Mover a câmera para a posição da janela
