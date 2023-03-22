@@ -710,6 +710,18 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!114 &422050016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1770883750700352588, guid: 7174eea49c59e7843840f719cb1ccda4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1189314384}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c66321e59d24c6468036687b0a94f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &601860668 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3294758251441920654, guid: 1c5dda3c7cd3cf742afcade5419faeab,
@@ -1087,6 +1099,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1770883750700352588, guid: 7174eea49c59e7843840f719cb1ccda4,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: b93ac04bef36b9d4684e50f3b80a6e74,
+        type: 2}
     - target: {fileID: 2096987513838769934, guid: 7174eea49c59e7843840f719cb1ccda4,
         type: 3}
       propertyPath: m_Name
@@ -1414,6 +1432,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1770883750700352588, guid: 7174eea49c59e7843840f719cb1ccda4,
+        type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770883750700352588, guid: 7174eea49c59e7843840f719cb1ccda4,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 422050016}
     - target: {fileID: 2096987513838769934, guid: 7174eea49c59e7843840f719cb1ccda4,
         type: 3}
       propertyPath: m_Name
